@@ -5,3 +5,14 @@ addopts = "-q"
 [tool.black]
 line-length = 88
 
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = [
+    "E203",  # whitespace before ':'
+    "E266",  # too many leading '#' for block comments
+    "E501",  # line too long (Black handles this)
+    "W503",  # line break before binary operator
+    "E125",  # indentation conflicts with Black
+]
+
