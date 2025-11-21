@@ -4,7 +4,9 @@ import time
 import requests
 
 
-POKEMON_API = "https://pokeapi.co/api/v2/pokemon/pikachu"
+POKEMON_API = (
+    "https://pokeapi.co/api/v2/pokemon/pikachu"
+)
 
 
 def fetch_pokemon_data(output_path: str, retries: int = 3, delay: float = 1.0) -> dict:
@@ -32,6 +34,7 @@ def fetch_pokemon_data(output_path: str, retries: int = 3, delay: float = 1.0) -
             return data
 
         except Exception as e:
+            print(f"Attempt {attempt} failed with error: {e}")
             if attempt == retries:
                 raise
             time.sleep(delay)  # retry delay
