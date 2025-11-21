@@ -46,3 +46,12 @@ jobs:
         with:
           name: cleaned-data
           path: data/output/
+
+      - name: Run Stage 2 API fetch
+        run: python src/api/fetch_api.py
+
+      - name: Upload API raw data
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-raw-data
+          path: data/raw/
