@@ -1,5 +1,5 @@
 import pandas as pd
-from clean_data import clean_column
+from src.clean_data import clean_column
 import os
 
 def test_clean_column(tmp_path):

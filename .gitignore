@@ -3,3 +3,44 @@ __pycache__/
 .venv/
 .env
 data/output/
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# VSCode settings
+.vscode/
+
+# pytest cache
+.pytest_cache/
+
+# Jupyter checkpoints (in case you add notebooks later)
+.ipynb_checkpoints/
+
+# Data outputs
+data/output/
+data/*.parquet
+data/*.json
+
+# Local settings
+.env
+
+# mac / windows system files
+.DS_Store
+Thumbs.db
