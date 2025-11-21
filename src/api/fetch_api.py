@@ -13,7 +13,7 @@ def fetch_pokemon_data(
     output_path: str,
     retries: int = 3,
     delay: float = 1.0
-    ) -> dict:
+) -> dict:
     """
     Fetches Pikachu data from the Pokémon API and saves it as JSON.
     Includes retries + basic validation.
