@@ -2,8 +2,6 @@ __pycache__/
 *.pyc
 .venv/
 .env
-data/output/
-
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
