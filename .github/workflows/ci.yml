@@ -1,10 +1,12 @@
 name: CI Pipeline
 
 on:
-  push:
-    branches: ["main"]
-  pull_request:
-    branches: ["main"]
+  workflow_dispatch:
+    inputs:
+      run_stage1:
+        description: "Run Stage 1 pipeline"
+        required: false
+        default: "yes"
 
 jobs:
   build:
