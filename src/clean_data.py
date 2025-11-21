@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def clean_column(input_path: str, output_path: str) -> None:
     """
     Reads a CSV, cleans a column, saves output.
