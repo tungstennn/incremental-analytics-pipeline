@@ -1,6 +1,6 @@
 # Incremental Analytics Pipeline
 
-A small, incremental project that builds core Data Engineering & DataOps skills:
+An incremental project that builds core Data Engineering & DataOps skills:
 
 - CI/CD (Stage 1)
 - API extraction (Stage 2)
