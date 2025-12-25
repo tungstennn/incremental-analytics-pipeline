@@ -1,6 +1,6 @@
 import json
 from unittest.mock import patch, MagicMock
-from src.api.fetch_api import fetch_pokemon_data
+from api.fetch_api import fetch_pokemon_data
 
 
 @patch("requests.get")
