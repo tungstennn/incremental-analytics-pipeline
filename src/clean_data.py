@@ -3,6 +3,7 @@ import pandas as pd
 
 
 def clean_column(input_path: str, output_path: str) -> None:
+    
     # Ensure output directory exists
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
