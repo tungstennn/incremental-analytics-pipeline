@@ -34,7 +34,7 @@ jobs:
         run: pytest
 
       - name: Run Stage 1 script
-        run: python src/clean_data.py
+        run: python src/ingestion/clean_data.py
 
       - name: Upload cleaned output
         uses: actions/upload-artifact@v4
