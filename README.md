@@ -1,16 +1,11 @@
-# Incremental Analytics Pipeline
+# Analytics Pipeline
 
 An incremental project that builds core Data Engineering & DataOps skills:
 
-- CI/CD (Stage 1)
-- API extraction (Stage 2)
-- Pandas transformations (Stage 3)
-- Data quality checks (Stage 4)
-- Produce final analytics table (Stage 5)
+- Stage 1 — CI/CD & Testing Foundations 
+- Stage 2 — API Extraction
+- Stage 3 — Pandas Transformations 
+- Stage 4 — Data Quality Checks
+- Stage 5 — Analytics Output 
 
-This project intentionally focuses on _one skill at a time_
-
-## Stage 1: CI/CD
-
-- A tiny function that cleans a column from input.csv
-- Pipeline runs tests, linting, formatting, and executes the script
+This project intentionally focuses on one skill at a time
